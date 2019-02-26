@@ -14,6 +14,6 @@ spammer = spammer_class.Spammer()
 spammer.author = "BlueIndustrial"
 try:
     spammer.main()
-except KeyboardInterrupt:
-    print spammer_class.color.FAIL+spammer_class.color.REVERSE+"\r[!][except] Отрубаю  спаммер...."+spammer_class.color.ENDC+"\n"
+except KeyboardInterrupt
+    print spammer_class.color.FAIL+spammer_class.color.REVERSE+"\r[!][except] Closing spammer...."+spammer_class.color.ENDC+"\n"
     exit()
